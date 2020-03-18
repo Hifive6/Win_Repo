@@ -54,8 +54,20 @@ nav a:hover, footer a:hover {
 
 }
 
+form label {
+    color: orange;
+}
+
+form input {
+    color: rgb(105, 241, 14);
+    padding: 2px solid;
+}
+
 footer {
     position: absolute;
+    bottom: 0px;
+    top: 261%;
+    /* margin: 0px; */
     padding: 10px;
     /* margin: 10px; */
     /* border: 5px solid ; */
