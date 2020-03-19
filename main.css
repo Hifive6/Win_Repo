@@ -1,14 +1,16 @@
+
 body {
-    color: hsl(0, 0%, 100%);
-    text-emphasis: bold;
-    /* background-image: url(https://images.unsplash.com/photo-1541746559922-6baae4cc7d67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60); */
-    background-image: url(https://images.unsplash.com/photo-1553558603-707b3cd37f57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);
+    color: #1e022b;
+    /* font-weight: bold; */
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Pacifico', cursive;
+    /* height: 100%; */
+    background-image: url(images/twinsfisch-8bqHLkhArtc-unsplash.jpg);
+    /* background-position: ; */
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
-    
-    
+    /* background-attachment: fixed; */
+
 }
 
 /* nav{
@@ -30,15 +32,16 @@ nav li{
 nav a {
     text-decoration: none;
     color: inherit;
+    
     float: right;
     padding: 5px;
     margin-left: 30px;
 }
 
 nav a:hover, footer a:hover {
-    background-color: rgb(143, 36, 62);
-    box-shadow: -10px 10px darkblue;
-
+    background-color: rgb(197, 169, 176);
+    box-shadow: -10px 10px rgb(88, 27, 2);
+    font-family: 'Permanent Marker', cursive;
 }
 
 
